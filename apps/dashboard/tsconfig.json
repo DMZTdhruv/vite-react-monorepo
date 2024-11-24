@@ -1,0 +1,14 @@
+{
+	"extends": "@repo/typescript-config/vite.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"types": ["vite/client"],
+		"allowImportingTsExtensions": true,
+		"moduleResolution": "Bundler",
+		"jsx": "react-jsx"
+	},
+	"include": ["src", "vite.config.ts"]
+}
